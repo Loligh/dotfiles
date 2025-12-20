@@ -12,7 +12,7 @@
 
   imports = [
     ../modules/desktop/defaultApps.nix
-    ../modules/desktop/git.nix
+    ../modules/git.nix
     ../modules/desktop/hyprland.nix
     ../modules/desktop/gaming.nix
     ../modules/desktop/styling.nix
