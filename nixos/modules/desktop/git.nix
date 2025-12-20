@@ -1,0 +1,15 @@
+{ config, pkgs, ... }:
+{
+  home-manager.users.benjamin = {
+    programs.git = {
+      enable = true;
+      settings.user = {
+        name = "Benjamin";
+	email = "erdle.benjamin@gmail.com";
+      };
+      extraConfig = {
+        init.defaultBranch = "main";
+      };
+    };
+  };
+}
