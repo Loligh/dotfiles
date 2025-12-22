@@ -115,6 +115,7 @@
      obsidian
      signal-desktop
      jetbrains.idea-community-bin
+     vscodium
      feh
   ];
 
