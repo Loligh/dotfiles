@@ -116,6 +116,7 @@
      signal-desktop
      jetbrains.idea-community-bin
      vscodium
+     python314
      feh
   ];
 
