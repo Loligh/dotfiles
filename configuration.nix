@@ -32,11 +32,6 @@
     settings."org/gnome/desktop/interface".color-scheme = "prefer-dark";
   }];
 
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.loader.efi.efiSysMountPoint = "/efi";
-
   #networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -109,20 +104,13 @@
      mangohud
      obsidian
      signal-desktop
-     jetbrains.idea-community-bin
+     jetbrains.idea
      vscodium
      python314
      feh
   ];
 
-  environment.shellAliases =
-  {
-     ff = "fastfetch";
-     ec = "sudoedit /etc/nixos/configuration.nix";
-     rs = "sudo nixos-rebuild switch";
-     gc = "nix-collect-garbage -d";
-     try = "nix-shell -p";
-  };
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

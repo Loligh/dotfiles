@@ -14,6 +14,7 @@
     ../modules/desktop/defaultApps.nix
     ../modules/git.nix
     ../modules/aliases.nix
+    ../modules/bootloader/grub.nix
     ../modules/desktop/hyprland.nix
     ../modules/desktop/gaming.nix
     ../modules/desktop/styling.nix
