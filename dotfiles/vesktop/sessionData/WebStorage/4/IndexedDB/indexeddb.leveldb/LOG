@@ -1,0 +1,7 @@
+2025/12/05-23:28:21.137 56d0 Reusing MANIFEST /home/benjamin/.config/vesktop/sessionData/WebStorage/4/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/12/05-23:28:21.137 56d0 Recovering log #4
+2025/12/05-23:28:21.137 56d0 Reusing old log /home/benjamin/.config/vesktop/sessionData/WebStorage/4/IndexedDB/indexeddb.leveldb/000004.log 
+2025/12/05-23:28:21.157 56f6 Level-0 table #8: started
+2025/12/05-23:28:21.161 56f6 Level-0 table #8: 2426 bytes OK
+2025/12/05-23:28:21.167 56f6 Delete type=0 #4
+2025/12/05-23:28:21.167 56d0 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

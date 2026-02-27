@@ -1,0 +1,17 @@
+* { /*
+	enabled: true;
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+	border-radius: 0;
+	background-color: #555555;
+	background-image:
+	border-color: #ffffff;
+	cursor:
+	*/
+}
+
+
+window {
+
+}

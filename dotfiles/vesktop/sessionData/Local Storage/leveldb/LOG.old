@@ -1,0 +1,6 @@
+2025/12/19-14:07:38.801 59f Reusing MANIFEST /home/benjamin/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/12/19-14:07:38.831 59f Recovering log #5188
+2025/12/19-14:07:38.832 59f Reusing old log /home/benjamin/.config/vesktop/sessionData/Local Storage/leveldb/005188.log 
+2025/12/19-17:58:30.394 5a1 Level-0 table #5193: started
+2025/12/19-17:58:30.399 5a1 Level-0 table #5193: 78147 bytes OK
+2025/12/19-17:58:30.405 5a1 Delete type=0 #5188
