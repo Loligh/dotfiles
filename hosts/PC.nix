@@ -13,10 +13,12 @@
   imports = [
     ../modules/desktop/defaultApps.nix
     ../modules/git.nix
+    ../modules/aliases.nix
     ../modules/desktop/hyprland.nix
     ../modules/desktop/gaming.nix
     ../modules/desktop/styling.nix
     ../modules/desktop/applications/minecraft.nix
     ../modules/desktop/applications/obs.nix
+    ../modules/desktop/applications/zen.nix
   ];
 }

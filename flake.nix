@@ -9,6 +9,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    zen-browser = {
+      url = "github:youwen5/zen-browser-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     nix-minecraft.url = "github:Infinidoge/nix-minecraft";
   };
 
@@ -20,7 +25,7 @@
 	modules = [
 	  ./configuration.nix
 	  ./hosts/PC.nix
-   /etc/nixos/hardware-configuration.nix
+	  /etc/nixos/hardware-configuration.nix
 	  home-manager.nixosModules.home-manager
 	];
       };
