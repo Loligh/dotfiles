@@ -16,6 +16,7 @@
     ../modules/aliases.nix
     ../modules/bootloader/grub.nix
     ../modules/desktop/hyprland.nix
+    ../modules/desktop/shell.nix
     ../modules/desktop/gaming.nix
     ../modules/desktop/styling.nix
     ../modules/desktop/applications/minecraft.nix

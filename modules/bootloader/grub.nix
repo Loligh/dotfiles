@@ -1,9 +1,11 @@
 { config, ... }:
 {
+  boot.loader.systemd-boot.enable = false;
   boot.loader.grub = {
     enable = true;
-    useOSProber = true;
     device = "nodev";
+    efiSupport = true;
+    useOSProber = true;
   };
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/efi";
